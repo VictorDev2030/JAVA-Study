@@ -1,3 +1,5 @@
+package Condicionais;
+
 public class CondicionaisAula3 {
     public static void main(String[] args) {
         float salario = 2000;

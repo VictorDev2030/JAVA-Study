@@ -1,3 +1,5 @@
+package Condicionais;
+
 public class CondicionaisAula4 {
     public static void main(String[] args) {
         int numero = 4;
