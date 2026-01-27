@@ -1,4 +1,8 @@
 {
   "item.huntercraft.hunterlicense": "Hunter License",
-  "item.huntercraft.hunterlicense1star": "Hunter License 1-star"
+  "item.huntercraft.hunterlicense1star": "Hunter License 1-star",
+  "item.huntercraft.hunterlicense2star": "Hunter License 2-stars",
+  "item.huntercraft.hunterlicense3star": "Hunter License 3-stars",
+
+  "itemgroup.hunter": "Hunter Group"
 }

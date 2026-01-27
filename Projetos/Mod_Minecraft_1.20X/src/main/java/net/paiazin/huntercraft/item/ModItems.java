@@ -11,12 +11,13 @@ import net.minecraft.util.Identifier;
 import net.paiazin.huntercraft.HunterCraft;
 
 public class ModItems {
-    public static final Item HUNTERLICENSE = registerItem("hunterlicense", new Item(new FabricItemSettings().maxCount(1)));
-    public static final Item HUNTERLICENSE1STAR = registerItem("hunterlicense1star", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item HUNTERLICENSE = registerItem("hunterlicense", new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTERLICENSE1STAR = registerItem("hunterlicense1star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTERLICENSE2STAR = registerItem("hunterlicense2star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTERLICENSE3STAR = registerItem("hunterlicense3star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
+
 
     private static void addItemsToIngredientTabGroup(FabricItemGroupEntries entries){
-        entries.add(HUNTERLICENSE);
-        entries.add(HUNTERLICENSE1STAR);
 
     }
     public static Item registerItem(String name, Item item){
