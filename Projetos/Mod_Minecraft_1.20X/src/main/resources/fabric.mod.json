@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "hunter-craft",
+	"version": "${version}",
+	"name": "Hunter Craft",
+	"description": "Mod created by Paiazin",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/hunter-craft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.paiazin.huntercraft.HunterCraft"
+		],
+		"Client": [
+			"net.paiazin.huntercraft.HunterCraftClient"
+		],
+		"fabric-datagen": [
+			"net.paiazin.huntercraft.HunterCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"hunter-craft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
