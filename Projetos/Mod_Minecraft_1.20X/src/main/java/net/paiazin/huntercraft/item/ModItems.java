@@ -11,11 +11,21 @@ import net.minecraft.util.Identifier;
 import net.paiazin.huntercraft.HunterCraft;
 
 public class ModItems {
-    public static final Item HUNTERLICENSE = registerItem("hunterlicense", new Item(new FabricItemSettings().maxCount(1).fireproof()));
-    public static final Item HUNTERLICENSE1STAR = registerItem("hunterlicense1star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
-    public static final Item HUNTERLICENSE2STAR = registerItem("hunterlicense2star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
-    public static final Item HUNTERLICENSE3STAR = registerItem("hunterlicense3star", new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE = registerItem("hunter_license",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE_RED = registerItem("hunter_license_red",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE_GRAY = registerItem("hunter_license_gray",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE_GREEN = registerItem("hunter_license_green",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE_PURPLE = registerItem("hunter_license_purple",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
+    public static final Item HUNTER_LICENSE_PINK = registerItem("hunter_license_pink",
+            new Item(new FabricItemSettings().maxCount(1).fireproof()));
 
+    public static final Item GON_FISHING_ROD = registerItem("gon_fishing_rod",
+            new Item(new FabricItemSettings().maxCount(1)));
 
     private static void addItemsToIngredientTabGroup(FabricItemGroupEntries entries){
 

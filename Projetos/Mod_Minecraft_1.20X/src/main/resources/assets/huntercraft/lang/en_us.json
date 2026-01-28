@@ -1,8 +1,10 @@
 {
-  "item.huntercraft.hunterlicense": "Hunter License",
-  "item.huntercraft.hunterlicense1star": "Hunter License 1-star",
-  "item.huntercraft.hunterlicense2star": "Hunter License 2-stars",
-  "item.huntercraft.hunterlicense3star": "Hunter License 3-stars",
-
+  "item.huntercraft.hunter_license": "Hunter License",
+  "item.huntercraft.hunter_license_red": "Red Hunter License",
+  "item.huntercraft.hunter_license_gray": "Gray Hunter License",
+  "item.huntercraft.hunter_license_green": "Green Hunter License",
+  "item.huntercraft.hunter_license_purple": "Purple Hunter License",
+  "item.huntercraft.hunter_license_pink": "Pink Hunter License",
+  "item.huntercraft.gon_fishing_rod:": "Fishing Road",
   "itemgroup.hunter": "Hunter Group"
 }

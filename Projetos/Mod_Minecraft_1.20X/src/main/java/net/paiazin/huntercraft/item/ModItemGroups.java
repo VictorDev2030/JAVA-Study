@@ -15,12 +15,16 @@ public class ModItemGroups {
                 new Identifier(HunterCraft.MOD_ID, "hunter"),
                 FabricItemGroup.builder()
                         .displayName(Text.translatable("itemgroup.hunter"))
-                        .icon(() -> new ItemStack(ModItems.HUNTERLICENSE))
+                        .icon(() -> new ItemStack(ModItems.HUNTER_LICENSE))
                         .entries((displayContext, entries) -> {
-                            entries.add(ModItems.HUNTERLICENSE);
-                            entries.add(ModItems.HUNTERLICENSE1STAR);
-                            entries.add(ModItems.HUNTERLICENSE2STAR);
-                            entries.add(ModItems.HUNTERLICENSE3STAR);
+                            entries.add(ModItems.HUNTER_LICENSE);
+                            entries.add(ModItems.HUNTER_LICENSE_RED);
+                            entries.add(ModItems.HUNTER_LICENSE_GRAY);
+                            entries.add(ModItems.HUNTER_LICENSE_GREEN);
+                            entries.add(ModItems.HUNTER_LICENSE_PURPLE);
+                            entries.add(ModItems.HUNTER_LICENSE_PINK);
+                            entries.add(ModItems.GON_FISHING_ROD);
+
                         })
                         .build()
         );

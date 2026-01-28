@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#P",
+    "B "
+  ],
+  "key": {
+    "#": {
+      "item": "huntercraft:hunter_license"
+    },
+    "P": {
+      "item": "minecraft:pink_dye"
+    },
+    "B": {
+      "item": "minecraft:brush"
+    }
+  },
+  "result": {
+    "item": "huntercraft:hunter_license_pink",
+    "count": 1
+  }
+}
