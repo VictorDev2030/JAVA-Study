@@ -5,6 +5,9 @@
   "item.huntercraft.hunter_license_green": "Green Hunter License",
   "item.huntercraft.hunter_license_purple": "Purple Hunter License",
   "item.huntercraft.hunter_license_pink": "Pink Hunter License",
-  "item.huntercraft.gon_fishing_rod:": "Fishing Road",
+
+  "item.huntercraft.gon_fishing_rod": "Fishing Rod",
+  "item.huntercraft.gon_fishing_rod.tooltip": "An advanced fishing rod with incredible strength.",
+
   "itemgroup.hunter": "Hunter Group"
 }

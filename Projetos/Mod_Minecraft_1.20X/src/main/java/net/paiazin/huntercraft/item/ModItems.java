@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.SwordItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -25,7 +26,7 @@ public class ModItems {
             new Item(new FabricItemSettings().maxCount(1).fireproof()));
 
     public static final Item GON_FISHING_ROD = registerItem("gon_fishing_rod",
-            new Item(new FabricItemSettings().maxCount(1)));
+            new GonFishingRodItem(ModToolMaterial.NETHERITE, 4, -2f, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabGroup(FabricItemGroupEntries entries){
 
