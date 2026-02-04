@@ -65,5 +65,42 @@ public class Matrizes {
             }
             System.out.println();
         }
+
+        System.out.println(" ");
+        int[] numbers = {45, 23, 67, 12, 89, 34};
+        int total = 0;
+        for (int num : numbers) {
+            total += num;
+        }
+        System.out.println(" ");
+        System.out.println("Second array: " + Arrays.toString(numbers));
+        System.out.println("Total of second array: " + total);
+        System.out.println(" ");
+        int[] newNumbers = {2, 4, 6};
+        int soma = 0;
+        for(int n : newNumbers){
+            soma += n;
+        }
+        System.out.println("valor final somado: "+soma);
+
+        System.out.println(" ");
+        String[] copyFrom = {
+                "Affogato", "Americano", "Cappuccino", "Corretto", "Cortado",
+                "Doppio", "Espresso", "Frappucino", "Freddo", "Lungo", "Macchiato",
+                "Marocchino", "Ristretto" };
+
+        String[] copyTo = Arrays.copyOfRange(copyFrom, 2, 9);
+        for (String coffee : copyTo) {
+            System.out.print(coffee + " ");
+        }
+
+        System.out.println(" ");
+        int[] array1 = {1, 3, 3};
+        int[] array2 = {1, 2, 3};
+        for (int i = 0; i < array1.length; i++) {
+            boolean igual = array1[i] == array2[i];
+            System.out.println(igual);
+        }
+
     }
 }
