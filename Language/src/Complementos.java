@@ -11,5 +11,8 @@ public class Complementos {
 
         var nome = "Gabriel";
         System.out.println(nome);
+
+        double d1 = 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1;
+        System.out.println("d1 == 1 ? " + (d1 == 1.0));
     }
 }
